@@ -1,13 +1,13 @@
 <repo>
     <footerlinks>
         <link>
-            <name>Follow me on Twitter</name>
-            <url>https://twitter.com/?</url>
-            <iconclass>glyphicon glyphicon-user</iconclass>
+            <name>marhauDev github </name>
+            <url>https://github.com/marhau-dev</url>
+            <iconclass>glyphicon glyphicon-use</iconclass>
         </link>
         <link>
-            <name>I want this depiction template</name>
-            <url>https://github.com/uchks/repo.me</url>
+            <name>repo link <name>
+            <url>https://github.com/marhau-dev/ios-repo/</url>
             <iconclass>glyphicon glyphicon-thumbs-up</iconclass>
         </link>
     </footerlinks>
