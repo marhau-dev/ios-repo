@@ -33,8 +33,25 @@
     line-height: 2px;
 
   }
+    h1:target{
+      
 
 
+
+      font-family: GGsnsB;
+      color: rgb(238, 238, 238);
+  object-fit: contain; /* Ensure the image fits within the spinner */
+  animation: spin 5s linear infinite; /* Change duration as needed */
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
     .picture{
       width: 150px;
       height: 150px;
