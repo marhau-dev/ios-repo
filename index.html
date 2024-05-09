@@ -8,6 +8,7 @@
   
 
 <h1>MarhauDev Repo</h1> <!-- Change this to your alias or repo name! -->
+<h2></h2>
 <div class="shape">
   <p class="picture-text">Click to picture</p>
   <p><a  href="cydia://url/https://cydia.saurik.com/api/share#?source=https://marhau-dev.github.io/ios-repo/repo"> <img src="https://github.com/marhau-dev/ios-repo/blob/main/cydia.png?raw=true" alt="cydia" class="picture"> </a></p>
@@ -90,7 +91,7 @@
       box-shadow: none;
       animation-name: shadow-off;
       animation-duration: 0.5s ;
-      
+      animation-iteration-count: infinite;
     
 
     }
@@ -114,10 +115,32 @@
     h1{
       font-family: GGsnsB;
       color: rgb(238, 238, 238);
-
+      
 
     }
 
+    h1{
+      font-family: GGsnsB;
+      color: rgb(255, 154, 154);
+      animation-name: wrongdevice;
+      animation-duration: 0.5s infinity;
+
+    }
+
+    @keyframes wrongdevice {
+      10% {color:rgb(255, 154, 154)}
+      20% {color:rgb(255, 146, 146)}
+      30% {color:rgb(253, 124, 124)}
+      40% {color:rgb(252, 133, 133)}
+      50% {color:rgb(252, 126, 126)}
+      70% {color:rgb(250, 119, 119)}
+      81% {color:rgb(248, 113, 113)}
+      82% {color:rgb(253, 119, 119)}
+      83% {color:rgb(252, 126, 126)}
+      90% {color:rgb(252, 133, 133)}
+      92% {color:rgb(253, 124, 124)}
+      100% {color:rgb(255, 146, 146)}
+    }
 
     .textD{
       color:rgb(148, 148, 148);
@@ -154,7 +177,11 @@
     and (max-device-width: 926px) /* Max width of iPhone 15 Pro Max in landscape mode */
     and (-webkit-min-device-pixel-ratio: 3) {
     
-    
+    h2{
+      display: none;
+
+
+    }
       .space{
         margin-bottom: 20px; 
         line-height: 20px;
@@ -224,5 +251,6 @@
 
 
 </style>
+
 
 
