@@ -7,7 +7,7 @@
 <body>
   
 
-<h1>MarhauDev Repo</h1> <!-- Change this to your alias or repo name! -->
+<h1 id="target">MarhauDev Repo</h1> <!-- Change this to your alias or repo name! -->
 <h3>Please open web site in your iPhone</h3>
 <div class="shape">
   <p class="picture-text">Click to picture</p>
@@ -36,14 +36,16 @@
   
 
 
-h1{
+
+h1 {
   font-family: GGsnsB;
   color: rgb(238, 238, 238);
   cursor: pointer; /* Change cursor to pointer to indicate clickability */
 }
 
-h1:active {
-  animation: spin 5s linear; /* Change duration as needed */
+/* Animation on click */
+#target:active {
+  animation: spin 1s linear; /* Change duration as needed */
   transform-origin: center; /* Set the transform origin to the center */
 }
 
