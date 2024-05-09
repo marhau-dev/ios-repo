@@ -262,10 +262,25 @@ h1 {
     and (max-device-width: 926px) /* Max width of iPhone 15 Pro Max in landscape mode */
     and (-webkit-min-device-pixel-ratio: 3) {
     
-    h2{
+      @keyframes reloads {
+      10% {width:70px ; height:90px ;}
+      10% {width:140px ; height:180px ;}
+      10% {width:210px ; height:270px ;} 
+      10% {width:280px ; height:360px ;}
+      10% {width:350px ; height:450px ;}
+      10% {width:420px ; height:540px ;}
+      10% {width:490px ; height:630px ;}
+      10% {width:560px ; height:720px ;}
+      10% {width:630px ; height:810px ;}
+      10% {width: 700px; ; height: 900px; ;}    
+    }
+    
+    
+    
+    
+    
+      h3{
       display: none;
-
-
     }
       .space{
         margin-bottom: 20px; 
@@ -330,6 +345,7 @@ h1 {
     border-radius: 10px;
     max-width: 700px;
     height: 900px;
+    animation: reloads 2s;
   
   } 
 
