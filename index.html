@@ -146,9 +146,20 @@ h1 {
     h1{
       font-family: GGsnsB;
       color: rgb(238, 238, 238);
-      
+  }
+    @keyframes textsee{
+      10% {font-size:smaller;}
+      10% {font-size:small;}
+      10% {font-size:medium;}
+      10% {font-size:large}
+      10% {font-size:larger;}
+
+
 
     }
+
+
+
 
     h3{
       font-family: GGsnsB;
@@ -257,12 +268,8 @@ h1 {
   }
 
 
-  @media only screen 
-    and (min-device-width: 375px) /* Width of iPhone 15 Pro Max in portrait mode */
-    and (max-device-width: 926px) /* Max width of iPhone 15 Pro Max in landscape mode */
-    and (-webkit-min-device-pixel-ratio: 3) {
-    
-      @keyframes reloads {
+
+  @keyframes reloads {
       10% {width:70px ; height:90px ;}
       10% {width:140px ; height:180px ;}
       10% {width:210px ; height:270px ;} 
@@ -274,6 +281,13 @@ h1 {
       10% {width:630px ; height:810px ;}
       10% {width: 700px; ; height: 900px; ;}    
     }
+
+  @media only screen 
+    and (min-device-width: 375px) /* Width of iPhone 15 Pro Max in portrait mode */
+    and (max-device-width: 926px) /* Max width of iPhone 15 Pro Max in landscape mode */
+    and (-webkit-min-device-pixel-ratio: 3) {
+    
+    
     
     
     
