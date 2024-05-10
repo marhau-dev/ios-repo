@@ -110,15 +110,17 @@ h1 {
       10% {box-shadow: 0.0px 0.0px;}
     }
 
+
     .picture::before{
-      width: 149px;
-      height: 149px;
-      
-      box-shadow: none;
-      animation: textreload 2s;
+            width: 350px;
+            height: 350px;
+            box-shadow: none;
+            opacity: 0;
+            margin-bottom: 2px; 
+            animation: textb 2s;
+            line-height: 2px;}
 
 
-    }
 
     .picture:hover{
       width: 150px;
@@ -154,32 +156,26 @@ h1 {
       10% {font-size:small;}
       10% {font-size:medium;}
       10% {font-size:large}
-      10% {font-size:larger;}
+      10% {font-size:larger;}}
 
+    
 
-
-    }
-
+    @keyframes textb{
+      10% {font-size:larger; opacity: 1;}
+      10% {font-size:large; opacity: 1;}
+      10% {font-size:medium; opacity: 1;}
+      10% {font-size:small;opacity: 1; }
+      10% {font-size:smaller; opacity: 1;}}
 
 
 
     h3{
       font-family: GGsnsB;
       color: rgb(255, 154, 154);
-      animation-name: wrongdevice;
-      animation-duration: 1s infinity;
-
+      animation: textsee 2s;
     }
 
-    @keyframes wrongdevice {
-      10% {color:rgb(255, 154, 154)}
-      20% {color:rgb(252, 108, 108)}
-      30% {color:rgb(252, 120, 120)}
-      40% {color:rgb(248, 108, 108)}
-      50% {color:rgb(250, 98, 98)}
-      70% {color:rgb(253, 97, 97)}
-      81% {color:rgb(252, 104, 104)}
-    }
+   
 
 
 
@@ -337,6 +333,8 @@ h1 {
       animation: textreload 3s;
       animation-delay: 2s;
       }
+
+
 
 
 
